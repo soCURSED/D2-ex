@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,500;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;0,700;1,300&display=swap");
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+
+  user-select: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: black;
+}
+
+#s1 {
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+#pp {
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.links-text {
+  justify-content: space-around;
+  color: rgb(0, 179, 224);
+}
+
+#s1-text {
+  font-size: 5em;
+  color: rgb(255, 255, 255);
+  font-weight: 290;
+}
+
+#s2 {
+  font-family: "Montserrat", sans-serif;
+
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  background-attachment: fixed;
+  background-image: url("images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.s-header {
+  font-family: "Montserrat", sans-serif;
+
+  color: white;
+  font-size: 2em;
+  font-weight: 100;
+  letter-spacing: 20px;
+  /* margin: 50px 0px; */
+  background-color: rgb(0, 0, 0);
+  align-items: center;
+  text-align: center;
+}
+
+.cards {
+  font-family: "Montserrat", sans-serif;
+
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.card-content {
+}
+.cards-1,
+.cards-2,
+.cards-3,
+.cards-4,
+.cards-5 {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.6s ease;
+}
+.cards-1:hover,
+.cards-2:hover,
+.cards-3:hover,
+.cards-4:hover,
+.cards-5:hover {
+  transform: scale(1.1);
+}
+.card-text {
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+.card-price {
+  color: black;
+  font-size: 20px;
+  background-color: white;
+}
+
+#s3 {
+  width: 100%;
+}
+.s3-content {
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  justify-content: space-evenly;
+}
+.left {
+  border: 7px solid black;
+  padding: 20px 40px;
+}
+.mid {
+  border: 7px solid black;
+  padding: 20px;
+}
+.head-text {
+  font-weight: 800;
+  font-size: 2em;
+}
+
+#s4 {
+  width: 100%;
+  height: 60vh;
+  /* background-image: linear-gradient(154deg, #ffffff 12.50%, #e0e0e0 12.50%, #e0e0e0 50%, #ffffff 50%, #ffffff 62.50%, #e0e0e0 62.50%, #e0e0e0 100%);
+  background-size: 182.49px 89.01px; */
+}
+#s4 p {
+  font-family: "Poppins", sans-serif;
+}
+
+.right {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+label {
+  padding: 0px 10px;
+}
+
+.fot {
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  height: 6vh;
+  display: flex;
+  padding: 0px 10px;
+}
+
+.fot-im {
+  padding: 0px 50px;
+}
